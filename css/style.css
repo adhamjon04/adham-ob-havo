@@ -1,0 +1,66 @@
+body {
+    background: #888b8826;
+}
+
+.form-css {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-css {
+    width: 300px;
+}
+
+.css-list {
+    position: absolute;
+    z-index: 1;
+    left: 320px;
+    top: 150px;
+}
+
+.one-item {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.two-item {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.three-item {
+    list-style-type: none;
+}
+
+.btn-size {
+    color: white;
+    width: 150px;
+}
+
+.info-css {
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.text-color {
+    color: black;
+}
+
+.btn-site {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+    background: floralwhite;
+}
+
+.btn-map {
+    background: #fff;
+    border: #eeeeee solid 2px;
+    border-radius: 2px;
+}
