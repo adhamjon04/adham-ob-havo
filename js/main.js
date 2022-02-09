@@ -7,7 +7,7 @@ function handleList(evt) {
         .then((res) => res.json())
     localStorage.setItem('lat', evt.target.dataset.lat)
     localStorage.setItem('lon', evt.target.dataset.lon)
-    window.location = '/info.html'
+    window.location = 'https://adhamjon04.github.io/info.html'
 }
 elList.addEventListener('click', handleList)
 
@@ -21,7 +21,7 @@ function handleBtnClick(evt) {
 
     localStorage.setItem('lat', evt.target.dataset.lat)
     localStorage.setItem('lon', evt.target.dataset.lon)
-    window.location = '/info.html'
+    window.location = 'https://adhamjon04.github.io/info.html'
 
 }
 

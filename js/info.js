@@ -2,7 +2,7 @@ let elInfoBtn = document.querySelector('.info-btn');
 
 function handleBack(evt) {
 
-    window.location = 'index.html';
+    window.location = 'https://adhamjon04.github.io/adham-ob-havo/';
 
 }
 elInfoBtn.addEventListener('click', handleBack)
